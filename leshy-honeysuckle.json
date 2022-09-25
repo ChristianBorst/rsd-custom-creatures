@@ -1,67 +1,50 @@
 {
-    "name": "Crimson Ravagers",
-    "traits": "troop, dread",
-    "level": 10,
+    "name": "Meliosa's Leshy (Minkaian Honeysuckle)",
+    "traits": "Leshy,Unique",
+    "tags": [],
+    "level": 2,
     "specials": [
         {
-            "id": "_121kzh1ark1",
-            "name": "Shield Wall",
+            "id": "_22osc395wll",
+            "name": "Agile Leshy",
             "traits": "",
+            "range": "",
+            "actions": "none",
+            "type": "defense",
+            "description": "The honeysuckle leshy gains a +1 status bonus to Reflex and Fortitude saves and DCs against trip and forced movement."
+        },
+        {
+            "id": "_1z6dxm7fgh3",
+            "name": "Verdant Burst",
+            "traits": "",
+            "range": "",
+            "actions": "none",
+            "type": "defense",
+            "description": "When a leshy dies, a burst of primal energy explodes from its body, restoring **2d8 Hit Points** to each plant creature within a 30-foot emanation. This area is filled with plants of the same type as the leshy, becoming difficult terrain. If the terrain isn't a viable environment for these plants, they wither after 24 hours."
+        },
+        {
+            "id": "_2gc4q9qgk81",
+            "name": "Primal Innate Spells",
+            "traits": "",
+            "range": "",
+            "actions": "none",
+            "type": "offense",
+            "description": "DC 16; **4th** speak with plants"
+        },
+        {
+            "id": "_1h9bq0zokrc",
+            "name": "Change Shape",
+            "traits": "concentrate, polymorph, primal, transmutation",
             "range": "",
             "actions": "one",
-            "type": "defense",
-            "description": "The troop maneuvers it's shields to mitigate area damage. The troops weakness to area damage and splash damage decreases to 5 and 0 respectively."
-        },
-        {
-            "id": "_96d3gx2ggzc",
-            "name": "Frightful Presence",
-            "traits": "aura, emotion, fear, mental",
-            "range": "",
-            "actions": "none",
-            "type": "general",
-            "description": "300 feet"
-        },
-        {
-            "id": "_1yds3joctbf",
-            "name": "Form Up",
-            "traits": "",
-            "range": "",
-            "actions": "one",
-            "type": "defense",
-            "description": "\nTroop Movement: Whenever the troop Strides, they first Form Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then moves up to their Speed. This works just like a Gargantuan creature moving; for instance, if any square of the troop enters difficult terrain, the extra movement cost applies to the whole troop."
-        },
-        {
-            "id": "_n2l685yz5h",
-            "name": "Disciplined Charge",
-            "traits": "",
-            "range": "",
-            "actions": "two",
             "type": "offense",
-            "description": "The Crimson Ravagers press forward 15 feet. Each creature within 10 feet of the Crimson Ravagers at the end of this movement takes 2d12+13 damage (DC 26 basic Fortitude save)"
-        },
-        {
-            "id": "_9dkw9ulueyg",
-            "name": "Cut Down",
-            "traits": "",
-            "range": "",
-            "actions": "none",
-            "type": "offense",
-            "description": "Frequency: Once per Round, Effect: The Crimson Ravagers wtih all the discipline of a troop of powerful knights swing their weapons, mostly glaives, at each creature within 10 feet of the troop. (DC 26 basic Reflex Save) \n(A) - 1d12 + 4 slashing damage\n(AA) - 2d12 + 8 slashing damage\n(AAA) - 3d12 + 13 slashing damage "
-        },
-        {
-            "id": "_2ieoo7zgux8",
-            "name": "Howling Rally",
-            "traits": "aura, emotion, fear, mental",
-            "range": "",
-            "actions": "none",
-            "type": "offense",
-            "description": "Effect: The Crimson Ravagers howl with a chilling, otherworldly wail, Each creature within 30 feet attempts a DC 28 basic Will save. \nCritical Success The creature is unaffected by the Howl.\nSuccess The creature is frightened 1.\nFailure The creature is frightened 2.\nCritical Failure The creature is frightened 4."
+            "description": " The leshy transforms into a Small plant. This ability otherwise uses the effects of tree shape."
         }
     ],
     "morespells": [],
-    "alignment": "ce",
-    "size": "gargantuan",
-    "type": "fey",
+    "alignment": "n",
+    "size": "small",
+    "type": "plant",
     "adjust": 0,
     "description": "",
     "items": "",
@@ -77,7 +60,7 @@
     },
     "savenote": "",
     "creature": "",
-    "speed": "25 feet, troop movement",
+    "speed": "25 feet",
     "imgurl": "",
     "spelltype": "",
     "focuspoints": 0,
@@ -104,37 +87,37 @@
         "note": ""
     },
     "strength": {
-        "value": 7,
-        "benchmark": "high",
+        "value": 2,
+        "benchmark": "moderate",
         "note": ""
     },
     "dexterity": {
-        "value": 5,
+        "value": 4,
         "benchmark": "moderate",
         "note": ""
     },
     "constitution": {
-        "value": 5,
+        "value": 2,
         "benchmark": "moderate",
         "note": ""
     },
     "intelligence": {
-        "value": 3,
-        "benchmark": "low",
+        "value": -1,
+        "benchmark": "moderate",
         "note": ""
     },
     "wisdom": {
-        "value": 3,
-        "benchmark": "low",
+        "value": 2,
+        "benchmark": "moderate",
         "note": ""
     },
     "charisma": {
-        "value": 3,
-        "benchmark": "low",
+        "value": 0,
+        "benchmark": "moderate",
         "note": ""
     },
     "perception": {
-        "value": 19,
+        "value": "",
         "benchmark": "moderate",
         "note": ""
     },
@@ -231,37 +214,37 @@
         "name": "lore"
     },
     "ac": {
-        "value": 30,
-        "benchmark": "high",
+        "value": 18,
+        "benchmark": "moderate",
         "note": ""
     },
     "hp": {
-        "value": 175,
+        "value": "30",
         "benchmark": "moderate",
-        "note": " Thresholds 120 (12 squares), 60 (8 squares) Troop Defenses"
+        "note": ""
     },
     "fortitude": {
-        "value": 22,
-        "benchmark": "high",
+        "value": "8",
+        "benchmark": "moderate",
         "note": ""
     },
     "reflex": {
-        "value": 19,
+        "value": "10",
         "benchmark": "moderate",
         "note": ""
     },
     "will": {
-        "value": 19,
+        "value": "6",
         "benchmark": "moderate",
         "note": ""
     },
     "resistance": {
-        "value": "mental 5, slashing 5",
+        "value": "Physical 3",
         "benchmark": "moderate",
         "note": ""
     },
     "weakness": {
-        "value": "area damage 10, splash damage 5",
+        "value": "",
         "benchmark": "moderate",
         "note": ""
     },
@@ -270,8 +253,17 @@
         "benchmark": "moderate",
         "note": ""
     },
-    "roadmap": "soldier",
+    "roadmap": "",
     "info": "",
-    "strikes": [],
-    "tags": []
+    "strikes": [
+        {
+            "id": "_1a0tz6nzqpr",
+            "name": "Fist",
+            "traits": "Agile, Finesse",
+            "attack": "+10",
+            "damage": "1d6+4 bludgeoning",
+            "type": "Melee"
+        }
+    ],
+    "languages": "Common, Druidic, Sylvan, Speak with Plants (Minkaian Honeysuckle Only)"
 }
